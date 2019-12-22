@@ -10,14 +10,15 @@ title: evolutions
 <h1>Grands principes des approches innovantes et performantes:</h1>
 
 <div class="row">
-	<div class="card-deck">
 		{% for libelle in site.data.principes %}
-  			<div class="card">
-   				 <div class="card-body">
-     		 			<h4 class="card-title alert alert-info" role="alert""><strong>{{ libelle.libelle }}</strong></h4>
-      					<p class="card-text"></p>
-    				</div>
-  			</div>					    
+
+			<div class="col-sm-6">
+				<div class="card">
+					 <div class="card-body">
+						<h4 class="card-title alert alert-info" role="alert""><strong>{{ libelle.libelle }}</strong></h4>
+						<p class="card-text"></p>
+					</div>
+				</div>	
+			</div>
 		{% endfor %}
-	   <div class=">
 </div>
