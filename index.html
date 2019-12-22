@@ -10,7 +10,7 @@ title: evolutions
 <div class="container">
 	{% for libelle in site.data.principes %}
 	    <div class="principes">
-	      { libelle }
+	      {{ libelle.libelle }}
 	    </div>
 	{% endfor %}
 </div>
