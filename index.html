@@ -8,25 +8,9 @@ title: evolutions
 
 </div>
 <div class="container">
-	<div class="col-4">
-		avoir un cap
-	</div>
-	<div class="col-4">
-		chercher la co-responsabilité et le co-engagement
-	</div>
-	
-	<div class="col-4">
-		échanger énormément, collaborer
-	</div>
-	<div class="col-4">
-		intégrer le changement comme une routine
-	</div>
-	
-	<div class="col-4">
-		mettre en place une mesure de l'avancement et de la réussite
-	</div>
-	
-	<div class="col-4">
-		respecter les personnes et les rôles
-	</div>
+	{% for libelle in site.data.principes %}
+	    <div class="col-md-4">
+	      {{ libelle }}
+	    </div>
+	{% endfor %}
 </div>
