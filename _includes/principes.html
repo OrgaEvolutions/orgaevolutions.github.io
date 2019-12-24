@@ -1,0 +1,18 @@
+<h1>Grands principes des approches innovantes et performantes:</h1>
+
+<div class="row">
+		{% for libelle in site.data.principes %}
+
+			<div class="col-md-3">
+				<div class="card h-90 text-white bg-success">
+					 <div class="card-body">
+						<h4 class="card-title"><strong>{{ libelle.libelle }}</strong></h4>
+						<p class="card-text"></p>
+					</div>
+					<div class="card-footer">
+      						<small class="text-muted">test</small>
+    					</div>
+				</div>	
+			</div>
+		{% endfor %}
+</div>
