@@ -1,0 +1,17 @@
+<div class="mt-5">
+	<h1>Modèles et outils principaux:</h1>
+
+	<div class="row">
+			{% for nom in site.data.modeles %}
+
+				<div class="col-md-4 py-3">
+					<div class="card h-100">
+						 <div class="card-body">
+							<h4 class="card-title text-center"><strong>{{ nom.nom }}</strong></h4>
+							<p class="card-text">{{ nom.descr }}</p>
+						</div>
+					</div>	
+				</div>
+			{% endfor %}
+	</div>
+</div>
