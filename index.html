@@ -2,17 +2,47 @@
 layout: default
 title: (r)Evolutions
 ---
-<div class="min-vh-100 bg-info row align-content-center justify-content-center">
-	<!--<h1>Améliorez votre performance économique et humaine</h1>-->
-	<h1>Faites de votre organisation une force</h1>
-	<!--<h1>Une organisation au service des enjeux de votre entreprise</h1>-->
-	<h2>Les modèles et outils les plus efficaces adaptés à votre fonctionnement</h2>
+
+<script src="//simplybook.it/v2/widget/widget.js"></script>
+<script>var widget = new SimplybookWidget({"widget_type":"button","url":"https:\/\/ecouteechange.simplybook.it","theme":"simple_beauty_theme","theme_settings":{"sb_base_color":"#241cba","header_color":"#ffffff","timeline_show_end_time":"0","timeline_modern_display":"as_slots","display_item_mode":"list","body_bg_color":"#ffffff","dark_font_color":"#474747","light_font_color":"#ffffff","sb_company_label_color":"#333333","hide_img_mode":"0","show_sidebar":"0","sb_busy":"#dad2ce","sb_available":"#d3e0f1"},"timeline":"flexible","datepicker":"top_calendar","is_rtl":false,"app_config":{"predefined":{"provider":"1","service":"1"}},"button_title":"R\u00e9server maintenant","button_background_color":"#2640d4","button_text_color":"#ffffff","button_position":"right","button_position_offset":"55%"});</script>
+
+<h5><center>Vous souhaitez échanger avec un professionnel, sans entrer dans un processus d'accompagnement?</h5>
+<div class="border border-dark">
+	<h1><center><b>1h par téléphone pour</b></center></h1>
+	<br>
+	<div class="row">
+		<div class="col-6 align-self-center text-right">&#202;TRE &Eacute;COUT&Eacute;</div>
+		<div class="col align-self-center"><img src="img/etre_ecoute.PNG" alt="etre_ecoute"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6 text-right"><img src="img/reflechir.PNG" alt="reflechir"></div>	
+		<div class="col align-self-center">R&Eacute;FL&Eacute;CHIR: analyser, clarifier, comprendre, prendre du recul</div>
+	</div>
+	<div class="row">
+		<div class="col-6 align-self-center text-right">AVANCER: envisager les options, faire un choix</div>
+		<div class="col text-left"><img src="img/avancer.PNG" alt="avancer"></div>
+	</div>
+	<div class="row">
+		<div class="col-6 text-right"><img src="img/avis_conseil.PNG" alt="avis_conseil"></div>	
+		<div class="col align-self-center">obtenir un AVIS* ou un CONSEIL** honnête et bienveillant</div>
+	</div>
 </div>
 
+<p>
+*si un avis extérieur est pertinent
+<br>**dans certains domaines: soi et ses relations, et dans le domaine professionnel ce qui touche à l'efficacité individuelle et collective
+</p>
 
 
-{% include principes.html %}
 
-{% include interventions.html %}
-
-{% include modeles.html %}
+<br>
+{% for QR in site.data.QR %}
+	{% include al type='paragraphe' %}
+		{% include al type='titre_p' %}
+			{{QR.titre}}
+		{% include al type='fin_titre_p' %}
+		{% include al type='suite_titre' %}
+			{{QR.contenu}}
+		{% include al type='fin_suite_titre' %}
+	{% include al type='fin_paragraphe' %}
+{% endfor %}

@@ -2,22 +2,19 @@
   descr: L'agilité vise à être efficace dans un environnement changeant (demande, contributeurs, concurrence, clients, ...). Initialement développée pour les projets informatiques, ses valeurs, principes et outils peuvent être étendus dans tous les contextes.
   
 - nom: Holacracy
-  descr: Dans sa forme complète, ce modèle vise l'efficacité de l'organisation (répartition des responsabilités), notamment par l'amélioration continue de celle-ci. Il est possible d'appliquer seuls certaines parties ou outils de l'Holacracy.
+  descr: Dans sa forme complète, ce modèle vise l'efficacité de l'organisation (càd la répartition des responsabilités), notamment par l'amélioration continue de celle-ci. Il est possible d'appliquer seulement certaines parties ou outils de l'Holacracy.
 
 - nom: Lean
   descr: Méthodes et outils du Lean pour amener une culture orientée objectif/résultats, tester de nouvelles idées, utiliser la mesure dans son pilotage
   
 - nom: Design Thinking
-  descr: Le Design Thinking vise notamment à concevoir d'abord une expérience client, avant de concevoir un produit ou un service
-  
-- nom: Beyond Budgeting
-  descr: à compléter
+  descr: Le Design Thinking vise notamment à concevoir et améliorer par l'angle de l'expérience client (vs produit/service)
   
 - nom: Intelligence collective
-  descr: On a intérêt à faire appel à l'intelligence collective, soit dans des phases de réflexion, pour tirer profit des différents points de vue; soit pour co-créer et obtenir ainsi l'adhésion des acteurs concernés par le sujet 
+  descr: Cela permet à la fois d'enrichir les idées (co-réflexion), et également d'obtenir l'adhésion des acteurs concernés par le sujet par la co-création
   
 - nom: Management 3.0
-  descr: outils et postures pour avoir une posture de "manager-coach", visant le développement de chacun
+  descr: outils et postures pour avoir une posture de "manager-coach", visant à développer et encourager l'autonomie et le développement de chacun
   
 - nom: Coaching
-  descr: outils et posture du coach pour aider à clarifier et atteindre son objectif, à un individu ou des équipes
+  descr: outils et posture du coach pour aider un individu ou des équipes à clarifier et atteindre leur objectif, essentiellement par le questionnement

@@ -1,0 +1,20 @@
+---
+layout: default
+title: perso
+---
+<br>
+<div class="row">
+	<div class="col-3 align-self-center"><img src="img/nathalie.jpg" height="300" alt="photo Nathalie"></div>
+	<div class="col align-self-center">
+	{% for QR in site.data.perso %}
+		{% include al type='paragraphe_perso' %}
+			{% include al type='titre_p' %}
+				{{QR.titre}}
+			{% include al type='fin_titre_p' %}
+			{% include al type='suite_titre' %}
+				{{QR.contenu}}
+			{% include al type='fin_suite_titre' %}
+		{% include al type='fin_paragraphe_perso' %}
+	{% endfor %}
+	</div>
+</div>

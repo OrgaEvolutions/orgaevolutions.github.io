@@ -1,18 +1,26 @@
 {% case include.type %}
   {% when 'paragraphe' %}
     <p>
+	
+  {% when 'paragraphe_perso' %}
+    <p><div class="alert alert-warning">
+	
   {% when 'fin_paragraphe' %}
     </p>
+  {% when 'fin_paragraphe_perso' %}
+    </div></p>
+	
   {% when 'titre_p' %}
-    {% capture id_count %}{%increment counter%}{% endcapture %}
-    <hr><a data-toggle="collapse" href="#collapseTitle{{id_count}}">
+	<details>
+	<summary>
+    
   {% when 'fin_titre_p' %}
-    </a><br>
+    </summary><br>
 	
   {% when 'suite_titre' %}
-	<div class="collapse" id="collapseTitle{{id_count}}">
+	
   {% when 'fin_suite_titre' %}
-	</div>
+	</details>
 
   {% when 'passage_important' %}
       <div style="font-weight: bold;margin: 25px 0px;font-size:1.1em;border-left: solid thick red;padding-left:15px;">
