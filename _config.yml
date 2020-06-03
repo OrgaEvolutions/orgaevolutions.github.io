@@ -1,2 +1,11 @@
-title: evolutions
+title: (r)Evolutions
 markdown: kramdown
+echange_libelle: "Aide & coaching à distance"
+echange_lien: index.html
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+      title: "(r)Evolutions"

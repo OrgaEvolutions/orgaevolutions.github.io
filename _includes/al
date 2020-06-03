@@ -3,7 +3,7 @@
     <p>
 	
   {% when 'paragraphe_perso' %}
-    <p><div class="alert alert-warning">
+    <p><div class="alert alert-primary">
 	
   {% when 'fin_paragraphe' %}
     </p>
