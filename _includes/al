@@ -1,33 +1,23 @@
 {% case include.type %}
   {% when 'paragraphe' %}
     <p>
-	
   {% when 'paragraphe_perso' %}
     <p><div class="alert alert-primary">
-	
   {% when 'fin_paragraphe' %}
     </p>
   {% when 'fin_paragraphe_perso' %}
     </div></p>
-	
   {% when 'titre_p' %}
 	<details>
 	<summary>
-    
   {% when 'fin_titre_p' %}
     </summary><br>
-	
   {% when 'suite_titre' %}
-	
   {% when 'fin_suite_titre' %}
 	</details>
-
   {% when 'passage_important' %}
       <div style="font-weight: bold;margin: 25px 0px;font-size:1.1em;border-left: solid thick red;padding-left:15px;">
-      
       <!--<div style="border-left: thick solid #ff0000;margin-left : 50px;padding: 15px; font-weight: bold;margin-bottom: 15px">-->
-     
-
   {% when 'fin_passage_important' %}
     </div>
   {% when 'exemple' %}
