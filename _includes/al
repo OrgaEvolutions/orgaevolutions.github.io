@@ -22,24 +22,16 @@
     </div>
   {% when 'exemple' %}
     {% capture id_count %}{%increment counter%}{% endcapture %}
-
     <p><a data-toggle="collapse" href="#collapseExample{{id_count}}" aria-expanded="false" style="margin-left : 0px;color: gray;">
       Voir un exemple <span class="glyphicon glyphicon-collapse-down"></span>
     </a>
-
-
     <div class="collapse" id="collapseExample{{id_count}}">
       <div class="card card-body">
           <p class="text-dark" style="margin-left : 0px;">
               <span class="glyphicon glyphicon-hand-right"></span>
               <i>
-      
-
-
   {% when 'fin_exemple' %}
     </i></p></div></div></p>
-
-
   {% when 'debut_liste' %}
     <ul>
   {% when 'element_liste' %}

@@ -1,17 +1,21 @@
 <div class="mt-5">
-	<h3>Mdèles et outils principaux utilisés:</h3>
+	<h3>Modèles et outils principaux utilisés:</h3>
 
 	<div class="row">
+		<div class="card-columns">
 			{% for nom in site.data.modeles %}
-
-				<div class="col-md-4 py-3">
-					<div class="card h-100">
+				<!--<div class="col-md-4 py-3">-->
+				<div card="col">
+					<div class="card">
 						 <div class="card-body">
+							<!--{% capture id_count %}{%increment counter%}{% endcapture %}
+							<span class="glyphicon glyphicon-collapse-down"></span><h4 class="card-title text-center" data-toggle="collapse" href="#collapseExample{{id_count}}" style="color:blue"><span style="font-family: 'Glyphicons Halflings';">\e159</span><strong>{{ nom.nom }}</strong></h4>-->
 							<h4 class="card-title text-center"><strong>{{ nom.nom }}</strong></h4>
-							<p class="card-text text-justify">{{ nom.descr }}</p>
+							<p class="card-text text-justify"">{{ nom.descr }}</p>
 						</div>
 					</div>	
 				</div>
 			{% endfor %}
+		</div>
 	</div>
 </div>
