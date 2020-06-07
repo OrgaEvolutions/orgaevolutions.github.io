@@ -27,13 +27,13 @@
 
 @media screen and (min-width: 731px) {
 	.text-responsive {
-		font-size: 17px;
+		font-size: 30px;
 	}
 }
 
 
 @media screen and (max-width: 730px) {
 	.text-responsive {
-		font-size: 50px;
+		font-size: 80px;
 	}
 }
