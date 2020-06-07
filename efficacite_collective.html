@@ -25,7 +25,7 @@ layout: default
 	<div class="offset-1">
 		<details>
 			<summary><span style="font-size:x-large">Durée des interventions</span></summary>
-			<div class="ml-4" style="border-left: solid gray; padding-left:4px" id="test">
+			<div class="ml-4" style="border-left: solid gray; padding-left:4px">
 				- interventions courtes : 1/2 à 3 jours
 				<br>- missions plus longues, s'étalant sur des semaines ou des mois
 				
@@ -42,7 +42,7 @@ layout: default
 		</details>
 
 		<div>
-		<details id="modeles">
+		<details id="scroll">
 			<summary><span style="font-size:x-large">Modèles et outils principaux utilisés</span></summary>
 
 			<div class="row mt-5">
@@ -66,10 +66,3 @@ layout: default
 		</div>
 	</div>
 </div>
-
-<script>
-	var target = $("#modeles");
-	target.on("toggle", event => {
-		$("html, body").stop().animate( { scrollTop: target.offset().top }, 500);
-	});
-</script>
