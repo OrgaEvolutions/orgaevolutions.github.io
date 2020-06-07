@@ -77,7 +77,7 @@ layout: default
 	</div>
 	<div class="p-2" style="font-size:30px">*des conseils peuvent être donnés dans le domaine du développement personnel, de l'efficacité individuelle et collective</div>
 </div>
-<div style="position:fixed;top:20vh;right:0vh;font-size:35px"><a href="reservation.html"><button type="button" class="btn btn-danger rotate"><h4>Réserver une séance</h4></button></a></div>
+<div style="position:fixed;top:20vh;right:0vh;"><a href="reservation.html"><button type="button" class="btn btn-danger rotate"><h2>Réserver une séance</h2></button></a></div>
 <!--<div style="border-top:#d9deff double;border-bottom:#d9deff double;min-height: 85vh;background-image:url('img/echange/pelote.png')">
 
 	<h1>&Eacute;change à distance</h1><h4><i>pour particuliers et professionnels - durée ~1h</i></h4><br>
@@ -91,14 +91,14 @@ layout: default
 </div>-->
 <br>
 
-<div class="ml-4 text-justify">
+<div class="ml-4">
 	{% for QR in site.data.QR %}
 		<p>
 			<details>
 				<summary>
 					<span style="font-size:40px">{{QR.titre}}</span>
 				</summary>
-			<div class="ml-4" style="border-left: solid gray; padding-left:4px;font-size:30px">
+			<div class="ml-4 text-justify" style="border-left: solid gray; padding-left:4px;font-size:30px">
 				{{QR.contenu}}
 			</details>
 		</p>
