@@ -13,6 +13,8 @@
   {% when 'fin_titre_p' %}
     </summary><br>
   {% when 'suite_titre' %}
+	
+	<div class="ml-4" style="border-left: solid gray; padding-left:4px">
   {% when 'fin_suite_titre' %}
 	</details>
   {% when 'passage_important' %}
