@@ -27,8 +27,8 @@ layout: default
 <br>
 
 <div class="row text-center align-content-center mt-5 mb-5" style="border-top:#d9deff double;border-bottom:#d9deff double;">
-	<div class="col-7 col-xs-12 align-self-center">
-		<h1>Un échange pour avancer sur votre problématique</h1>
+	<div class="col-7 col-xs-12 col-sm-12 align-self-center">
+		<h2>Un échange pour avancer sur votre problématique</h2>
 		<h3>Une aide adaptée à votre demande: questionnement, suggestions, regard extérieur</h3>
 	</div>
 	<div class="col-5 align-self-center hidden-xs hidden-sm">
@@ -91,14 +91,14 @@ layout: default
 </div>-->
 <br>
 
-<div class="ml-4">
+<div class="ml-md-4">
 	{% for QR in site.data.QR %}
 		<p>
 			<details>
 				<summary>
 					<span style="font-size:30px">{{QR.titre}}</span>
 				</summary>
-			<div class="ml-4 text-justify" style="border-left: solid gray; padding-left:4px;font-size:20px">
+			<div class="ml-md-4 text-justify" style="border-left: solid gray; padding-left:4px;font-size:20px">
 				{{QR.contenu}}
 			</details>
 		</p>
