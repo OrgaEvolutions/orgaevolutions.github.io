@@ -36,7 +36,7 @@ layout: default
 	<div class="offset-1">
 		<details>
 			<summary><span style="font-size:30px">Durée des interventions</span></summary>
-			<div class="ml-md-4" style="border-left: solid gray; padding-left:4px;font-size:20px">
+			<div class="ml-md-4 text-justify" style="border-left: solid gray; padding-left:4px;font-size:20px">
 				- interventions courtes : 1/2 à 3 jours
 				<br>- missions plus longues, s'étalant sur des semaines ou des mois
 				
@@ -52,7 +52,7 @@ layout: default
 			</div>
 		</details>
 
-		<div>
+		
 		<details id="scroll">
 			<summary><span style="font-size:30px">Modèles et outils principaux utilisés</span></summary>
 
@@ -60,13 +60,13 @@ layout: default
 				<div class="card-columns">
 					{% for nom in site.data.modeles %}
 						<!--<div class="col-md-4 py-3">-->
-						<div card="col-xs-12 col-lg-4">
+						<div class="col-xs-12 col-lg-4">
 							<div class="card">
 								 <div class="card-body">
 									<!--{% capture id_count %}{%increment counter%}{% endcapture %}
 									<span class="glyphicon glyphicon-collapse-down"></span><h4 class="card-title text-center" data-toggle="collapse" href="#collapseExample{{id_count}}" style="color:blue"><span style="font-family: 'Glyphicons Halflings';">\e159</span><strong>{{ nom.nom }}</strong></h4>-->
-									<h4 class="card-title text-center" style="font-size:20px"><strong>{{ nom.nom }}</strong></h4>
-									<p class="card-text text-justify" style="font-size:15px">{{ nom.descr }}</p>
+									<h4 class="card-title text-center" style="font-size:22px"><strong>{{ nom.nom }}</strong></h4>
+									<p class="card-text text-justify" style="font-size:20px">{{ nom.descr }}</p>
 								</div>
 							</div>	
 						</div>
